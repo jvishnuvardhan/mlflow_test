@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishnu/Desktop/DeepLearning/MLflow/MLflow_sklearn/mlruns/0/057f91e8a62d4bea8bbfffcfcf5a9a6b/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 057f91e8a62d4bea8bbfffcfcf5a9a6b
+run_name: useful-vole-463
+run_uuid: 057f91e8a62d4bea8bbfffcfcf5a9a6b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1692411808202
+status: 1
+tags: []
+user_id: vishnu

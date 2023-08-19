@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishnu/Desktop/DeepLearning/MLflow/MLflow_sklearn/mlruns/0/9809e85eb0d741c185a940ad56a39634/artifacts
+end_time: 1692461145498
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9809e85eb0d741c185a940ad56a39634
+run_name: funny-cod-999
+run_uuid: 9809e85eb0d741c185a940ad56a39634
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1692461143955
+status: 3
+tags: []
+user_id: vishnu

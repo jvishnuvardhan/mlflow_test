@@ -78,6 +78,10 @@ if __name__ == "__main__":
         predictions = lr.predict(train_x)
         signature = infer_signature(train_x, predictions)
 
+        # for remote server only (DAGShub)
+        # remote_server_uri = "https://dagshub.com/jvishnuiitm/mlflow_test.mlflow"
+        # mlflow.set_tracking_uri(remote_server_uri)
+
         tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
 
         # Model registry does not work with file store
@@ -89,5 +93,20 @@ if __name__ == "__main__":
             mlflow.sklearn.log_model(
                 lr, "model", registered_model_name="ElasticnetWineModel", signature=signature
             )
+            # for remote server only (DAGShub)
+            # mlflow.end_run()
         else:
+            print('I am here')
             mlflow.sklearn.log_model(lr, "model", signature=signature)
+    
+    # import mlflow
+    # logged_model = 'runs:/e2bb7eafbfae49588c576a9a422b165c/model'
+
+    # # Load model as a PyFuncModel.
+    # loaded_model = mlflow.pyfunc.load_model(logged_model)
+
+    # # Predict on a Pandas DataFrame.
+    # import pandas as pd
+    # predicted = loaded_model.predict(pd.DataFrame(test_x))
+    # print(predicted)
+

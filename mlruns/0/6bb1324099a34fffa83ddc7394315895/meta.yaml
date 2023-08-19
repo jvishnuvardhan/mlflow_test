@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishnu/Desktop/DeepLearning/MLflow/MLflow_sklearn/mlruns/0/6bb1324099a34fffa83ddc7394315895/artifacts
+end_time: 1692460205080
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6bb1324099a34fffa83ddc7394315895
+run_name: selective-wren-786
+run_uuid: 6bb1324099a34fffa83ddc7394315895
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1692460203425
+status: 3
+tags: []
+user_id: vishnu
